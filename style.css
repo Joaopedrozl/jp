@@ -13,11 +13,23 @@ p{
 	font-size: 30px;
 }
 
-h2 {
+.container-principal__titulo {
  	color: grey;
 	margin-left: 20px;
 }
 
 #banner{
 	width: 100%;
+}
+
+.container-principa__lista {
+	list-style: none;
+	font-family: 'Lora', serif;
+}
+
+.container-secundario__titulo {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: red;
+	font-size: 35px;
 }
