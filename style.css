@@ -33,3 +33,8 @@ p{
 	color: red;
 	font-size: 35px;
 }
+
+.container-secundario__imagem{
+	width: 40%;
+	margin: 12px 12px;
+}
