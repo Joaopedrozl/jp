@@ -25,6 +25,13 @@ p{
 .container-principa__lista {
 	list-style: none;
 	font-family: 'Lora', serif;
+	font-size: 20px;
+}
+
+.container-secundario {
+	display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .container-secundario__titulo {
@@ -35,6 +42,11 @@ p{
 }
 
 .container-secundario__imagem{
-	width: 40%;
-	margin: 12px 12px;
+	width: 30%;
+}
+
+.container-secundario__lista {
+	display: flex;
+	list-style: none;
+	font-size: 20px;
 }
