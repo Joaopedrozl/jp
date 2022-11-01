@@ -20,7 +20,7 @@
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
   
   font-size: 0.8em;
-  color: #fff;
+  color: pink;
   top: -11px;
   -webkit-transition: all 0.225s ease;
   transition: all 0.225s ease;
