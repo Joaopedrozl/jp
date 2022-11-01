@@ -13,57 +13,43 @@
 </head>
 
 <body>
-    <div class="box-contato">
-                      
-        <form id="contact-form" class="form-contato" role="form">
-           
-           <label>
-              <input type="text" class="form-control" id="name" placeholder="Nome" name="nome" value="" required>
-            </label>
+    <div class="row input-container">
 
-            <label>
-                <input type="email" class="form-control" id="email" placeholder="E-mail" name="email" value="" required>
-            </label>
-
-            <label>
-                <textarea class="form-control" rows="3" placeholder="Mensagem" name="mesagem" required></textarea>
-            </label>
-          
-          <button class="btn btn-setas seta-a icon-arrow-right" id="submit" type="submit" value="Enviar">Enviar</button>
-          
-        </form>
-                        
-        <div class="form-endereco">
-
-            <ul class="contact-list">
-             
-              <li class="list-item"><span class="contact-text"><i class="icon icon-heart-3"></i> Cidade,Londrina</span></li>
-              <li class="list-item"><span class="contact-text"><i class="icon icon-phone-4"></i> (43) 99999-0000</span></li>
-              <li class="list-item"><span class="contact-text"><i class="icon icon-mail-2"></i> <a href="mailto:contato@seusite.com.br" title="Contato">contato@seusite.com.br</a></span></li>
-              
-            </ul>
-
-            <ul class="social-media-list">
-                
-                <li>
-                    <a href="#" target="_blank" class="contact-icon"><i class="icon icon-facebook"></i></a>
-                </li>
-                
-                <li>
-                    <a href="#" target="_blank" class="contact-icon"><i class="icon icon-instagram"></i></a>
-                </li>
-                
-                <li>
-                    <a href="#" target="_blank" class="contact-icon"><i class="icon icon-youtube"></i></a>
-                </li>
-
-                <li>
-                    <a href="#" target="_blank" class="contact-icon"><i class="icon icon-pinterest"></i></a>
-                </li>
-
-            </ul>
-
-        </div><!--direct-contact-container-->
+        <h1 class="title_contato">Fale Conosco</h1>
         
-    </div><!--Box Contato-->
+        <form method="post" action="#">
+
+            <div class="style-form-input full">
+                <input type="text" name="nome" required />
+                <label><i class="icon icon-user-1"></i>  Nome</label> 
+            </div>
+
+            
+            <div class="style-form-input">
+                <input type="text" name="email" required />
+                <label><i class="icon icon-mail-1"></i> E-mail</label> 
+            </div>
+
+            
+            <div class="style-form-input right">
+                <input type="text" name="assunto" required />
+                <label><i class="icon icon-info-circled"></i> Assunto</label> 
+            </div>
+            
+            <div class="style-form-input full">
+                <textarea name="mensagem" required></textarea>
+                <label><i class="icon icon-comments"></i> Mensagem</label>
+            </div>
+
+
+            <div class="style-form-input full">
+
+                <input type="hidden" name="acao" value="enviar">
+                <button class="btn-submit">Enviar</button>
+            
+            </div>
+
+        </form>
+
+    </div>
 </body>
